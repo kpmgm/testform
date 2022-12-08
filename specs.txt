@@ -1,0 +1,5 @@
+- Campos requeridos: nombre, peso, altura, sexo, fecha de nacimiento.
+- Nombre y apellido: mínimo 2 caracteres, máximo 20.
+- Peso: debe ser entre 40 y 500.
+- Altura: debe ser entre 120 y 250.
+- Fecha de nacimiento: nacido/a al menos en el 2000.

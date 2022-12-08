@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulario</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div id="main">
+      <div id="imgcontainer">
+        &nbsp;
+      </div>
+      <form action="">
+        <h1>Salud</h1>
+        <div>
+          <fieldset>
+            <legend>Datos personales</legend>
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" placeholder="Delilah" minlength="2" maxlength="20" required>
+            <br>
+            <br>
+            <label for="surname" name="surname">Apellido:</label>
+            <input type="text" placeholder="Viper" minlength="2" maxlength="20">
+            <br>
+            <br>
+            <label for="dob">Fecha de nacimiento:</label>
+            <input type="date" name="dob" min="2000-01-01" required>
+            <br>
+            <br>
+            <label for="sex">Sexo</label>
+            <select name="sex" required>
+              <option value="woman">Mujer</option>
+              <option value="man">Hombre</option>
+            </select>
+          </fieldset>
+          <fieldset>
+            <legend>Información física</legend>
+            <label for="weight">Peso (kg):</label>
+            <input type="number" name="weight" min="40" max="500" required>
+            <br>
+            <br>
+            <label for="height">Altura (cm):</label>
+            <input type="number" name="height" min="120" max="250" required>
+            <br>
+            <br>
+            <label for="activity">Actividad física:</label>
+            <select name="activity">
+              <option value="sedentary">Sedentario/a</option>
+              <option value="moderate">Actividad moderada</option>
+              <option value="intense">Actividad intensa</option>
+            </select>
+          </fieldset>
+        </div>
+        <fieldset>
+          <legend>Objetivos</legend>
+          <input class="inline" type="radio" name="goal" value="Perder grasa">
+          <label for="lessfat">Perder grasa</label>
+          <input class="inline" type="radio" name="goal" value="Ganar musculo">
+          <label for="moremuscle">Ganar músculo</label>
+          <input class="inline" type="radio" name="goal" value="Mantenerme">
+          <label for="maintain">Mantenerme</label>
+        </fieldset>
+        <input class="inline" type="checkbox" name="subscribe">
+        <label for="subscribe">Suscribirme</label>
+        <input type="submit" value="Calcular">
+      </form>
+    </div>
+    <script src="./index.js" async defer></script>
+  </body>
+</html>

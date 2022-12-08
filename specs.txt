@@ -3,3 +3,30 @@
 - Peso: debe ser entre 40 y 500.
 - Altura: debe ser entre 120 y 250.
 - Fecha de nacimiento: nacido/a al menos en el 2000.
+
+Colores:
+#222
+#555
+#aaa
+#ddd
+
+Fuente:
+'Courier New', Courier, monospace;
+
+
+
+Estilos iniciales:
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	height: 100vh;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+	...
+}

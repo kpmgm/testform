@@ -59,7 +59,6 @@ input, select {
   display: block;
   padding: 0.5rem 0.3rem;
   width: 100%;
-  box-sizing: border-box;
   border: none;
   border-bottom: 1px solid #ddd;
   color: #aaa;
